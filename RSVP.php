@@ -26,7 +26,7 @@
 	<body>		
 			<nav>
 				<ul>
-					<<a href="#Home" class="button"><style> .button:hover {
+				<a href="#Home" class="button"><style> .button:hover {
                     color: gold;
                 }
                 </style>Home</a>
@@ -56,7 +56,7 @@
 	<div class="namebar">
 		<div id="Michael">Michael<br>Chesser</div>
 			<span id="and">&amp;</span>
-				<div id="Anna">Lisa<br>Whittinghill</div>
+				<div id="Anna">Anna<br>Whittinghill</div>
 	</div>
 		<script>
 			$(document).ready(function(){
