@@ -1,7 +1,6 @@
 <?php 
 	$name = $_POST["name"]; 
 	$rsvp = $_POST["rsvp"];
-	$dj = $_POST["dj"]; 
 	$to = 'terra.chesser78@gamil.com';
     $subject = 'Returned rsvp forms';
     $body = 'Name:<br/>'.$name.'<br/><br/>rsvp:<br/>'.$rsvp.;
@@ -24,9 +23,9 @@
 	</head>
 	
 	<body>		
-			<nav>
-				<ul>
-				<a href="#Home" class="button"><style> .button:hover {
+	<nav>
+            <ul>
+                <a href="#Home" class="button"><style> .button:hover {
                     color: gold;
                 }
                 </style>Home</a>
@@ -50,8 +49,8 @@
                     color: gold;
                 }
                 </style>RSVP</a>
-				</ul>
-			</nav>
+            </ul>
+        </nav>
 			
 	<div class="namebar">
 		<div id="Michael">Michael<br>Chesser</div>
@@ -80,7 +79,7 @@
 			?>
 			<h1>Oops</h1>
 			<p>Something went wrong, try again!</p>
-			<a href="rsvp.html">Try Again</a>
+			<a href="index.html">Try Again</a>
 			<?php 
 				}
 			?>
