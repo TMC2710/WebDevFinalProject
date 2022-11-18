@@ -102,7 +102,13 @@ footer {
     text-align: center
 }
 
-
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: bold;
+    color: silver;
+}
 /* Images and Videos
 ========================================================================== */
 
@@ -141,6 +147,18 @@ footer {
     padding-top: 20px;
       
     }
+
+.coming img {
+    display: flex;
+    min-width: 100px;
+    max-width: 250px; 
+    height: auto; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-top: 20px;
+          
+        }
 
 
 /* Forms
